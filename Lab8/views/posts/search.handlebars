@@ -1,0 +1,11 @@
+<title>Characters found</title>
+<h1>Characters found</h1>
+<h2>{{searchParam}}</h2>
+{{#each name}}
+    <main>
+        <ul>
+            <li><a href="/characters/{{this.id}}">{{this.name}}</a></li>
+        </ul>
+    </main>
+{{/each}}
+<a href="/">Make another Search</a>

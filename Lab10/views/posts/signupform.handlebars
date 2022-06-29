@@ -1,0 +1,16 @@
+<main>
+    <h1 class="search">Signup</h1>
+    <form id="signup-form" action="/signup" method="POST">
+        <label for="username">Username:
+            <input type="text" id="username" name="username"><br><br>
+        </label> 
+        <label for="password">Password
+            <input type="password" id="password" name="password"><br><br>
+        </label>
+        <input type="submit">
+    </form>
+    
+    <p class="error">{{error}}</p>
+
+    <a href="/">Already have an account? Click here to log-in</a>
+</main>

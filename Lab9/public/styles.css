@@ -1,0 +1,63 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: auto;
+    height: auto;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    color: #008cb0;
+}
+
+ol,
+li {
+    padding: 10px;
+}
+
+ol>li.is-palindrome {
+    color: #0000FF;
+}
+
+ol>li.not-palindrome {
+    color: #FF0000;
+}
+
+textarea,
+button {
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px 25px;
+}
+
+button {
+    border: none;
+    background-color: #008cb0;
+    color: white;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    list-style-position: inside;
+}
+
+footer {
+    font-size: small;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}

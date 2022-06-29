@@ -1,0 +1,16 @@
+{{#each marv}}
+    <title>{{this.name}}</title>
+    <main>
+        <div>
+            <h1>{{ this.name }}</h1>
+            <img src="{{this.thumbnail.path}}/portrait_xlarge.jpg" >
+            <p>{{ this.description }}</p>
+            <h2>Comics</h2>
+            <ul>
+                {{#each this.comics.items}}
+                    <li>{{this.name}}</li>
+                {{/each}}
+            </ul>
+        </div>
+    </main>
+{{/each}}
