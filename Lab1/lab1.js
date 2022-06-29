@@ -13,6 +13,7 @@ const questionOne = function questionOne(arr) {
     equation.push(equ);
   })
   
+  
   //Creating a function to check if a number is prime or not
   function checkPrime(number) {
     if (number <= 1) {
